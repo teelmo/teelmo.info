@@ -56,21 +56,6 @@ class App extends Component {
           <data><label>Cooper</label> <span>3,02km</span></data>
         </div>
         <div className={style.container}>
-          <h2>Laitteisto</h2>
-          <p></p>
-          <data><label>Kannettava</label> <span>MacBook Pro</span></data>
-          <data><label>Puhelin</label> <span>iPhone XR</span></data>
-          <data><label>Kello</label> <span>Apple Watch 4</span></data>
-          <data><label>Konsoli</label> <span>Xbox 360</span></data>
-          <data><label>HTPC</label> <span>LibreELEC</span></data>
-          <data><label>Palvelin</label> <span>Ubuntu</span></data>
-          <data><label>Mikrofoni</label> <span>Røde NT</span></data>
-          <data><label>Kuulokkeet</label> <span>Beoplay H9i</span></data>
-          <data><label>Kamera</label> <span>Canon EOS 800D</span></data>
-          <data><label>Lumilauta</label> <span>Burton Ripcord</span></data>
-          <data><label>Auto</label> <span>Hyundai i30</span></data>
-        </div>
-        <div className={style.container}>
           <h2>Yhteystiedot</h2>
           <p>Koulutan erityisesti datajournalismia ja tiedon visualisointia sekä pidän työpajoja Excelin ja Googlen työkalujen käytöstä. Vierailen säännöllisesti oppilaitoksissa ja seminaareissa, ulkomailla sekä kotimaassa.</p>
           <p>Voit ottaa minuun yhteyttä eri kanavissa. Kutsu minut kouluttamaan, luennoimaan, kylään, kaljalle, kaveriksi.</p>
