@@ -1,3 +1,3 @@
 # teelmo.info
 
-My Homepage
+My homepage.
