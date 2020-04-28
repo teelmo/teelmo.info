@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className={style.app}>
         <h1>Teemo Tebest</h1>
-        <div className={style.image_container}><img src="img/teemo.png" /></div>
+        <div className={style.image_container}><img src="img/teemo.jpg" /></div>
         <h3><Typist cursor={{show: false,blink: true,element: '_',hideWhenDone: true, hideWhenDoneDelay: 0}}>Moro! Olen Teemo, ihminen.</Typist></h3>
         <div className={style.container}>
           <h2>Ura</h2>
@@ -79,7 +79,7 @@ class App extends Component {
           <data><label>Facebook</label> <span><a href="https://www.facebook.com/teelmo/">@teelmo</a></span></data>
           <data><label>Github</label> <span><a href="https://www.github.com/teelmo/">@teelmo</a></span></data>
         </div>
-        <div className={style.image_container}><img src="img/ecuador.png" /></div>
+        <div className={style.image_container}><img src="img/ecuador.jpg" /></div>
       </div>
     );
   }
