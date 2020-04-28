@@ -1,3 +1,0 @@
-# teelmo.info
-
-My homepage.
