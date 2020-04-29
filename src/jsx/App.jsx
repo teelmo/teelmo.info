@@ -54,17 +54,24 @@ class App extends Component {
           <data><label>10 km</label> <span>46min 52sek</span></data>
           <data><label>5 km</label> <span>21min 43sek</span></data>
           <data><label>Cooper</label> <span>3,02km</span></data>
+          <data><label>HCP</label> <span>17,2</span></data>
+        </div>
+        <div className={style.container}>
+          <h2>Statster</h2>
+          <p>Vuonna 2007 perustin verkkopalvelun nimeltä Statster. Sen avulla pidän kirjaa kuunnelluista albumeistani, joita on kertynyt reilut 26&shy;000.</p>
+          <data><label>Statster</label> <span><a href="https://statser.info/user/teelmo/">@teelmo</a></span></data>
         </div>
         <div className={style.container}>
           <h2>Laitteisto</h2>
           <data><label>Kannettava</label> <span>MacBook Pro</span></data>
           <data><label>Puhelin</label> <span>iPhone XR</span></data>
-          <data><label>Kello</label> <span>Apple Watch 4</span></data>
-          <data><label>Konsoli</label> <span>Xbox 360</span></data>
           <data><label>HTPC</label> <span>LibreELEC</span></data>
+          <data><label>Kello</label> <span>Apple Watch 4</span></data>
           <data><label>Palvelin</label> <span>Ubuntu</span></data>
-          <data><label>Mikrofoni</label> <span>Røde NT</span></data>
+          <data><label>Konsoli</label> <span>Xbox 360</span></data>
           <data><label>Kuulokkeet</label> <span>Beoplay H9i</span></data>
+          <data><label>Kaiuttimet</label> <span>Dali ZENSOR 5.1</span></data>
+          <data><label>Mikrofoni</label> <span>Røde NT</span></data>
           <data><label>Kamera</label> <span>Canon EOS 800D</span></data>
           <data><label>Lumilauta</label> <span>Burton Ripcord</span></data>
           <data><label>Auto</label> <span>Hyundai i30</span></data>
