@@ -6,7 +6,7 @@ const GoogleFontsPlugin = require('@beyonk/google-fonts-webpack-plugin');
 module.exports = {
   output: {
     path: __dirname + '/public',
-    filename: "js/script.min.js?v=1"
+    filename: 'js/script.min.js?v=' + new Date().getTime()
   },
   module: {
     rules: [
@@ -69,7 +69,7 @@ module.exports = {
       filename: './index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/styles.min.css?v=1',
+      filename: 'css/styles.min.css?v=' + new Date().getTime(),
     }),
     new CopyPlugin([
       { from: 'media/img/', to: 'img' },
