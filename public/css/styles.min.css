@@ -201,6 +201,14 @@ body {
   margin-bottom: 30px;
   text-align: center;
 }
+.app___2khK2 .container___ki5VE a {
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  color: #222;
+}
+.app___2khK2 .container___ki5VE a:visited {
+  color: #222;
+}
 .app___2khK2 .container___ki5VE data {
   color: #222;
   display: block;
@@ -221,10 +229,5 @@ body {
   text-align: left;
   font-family: Roboto Condensed;
   font-weight: 400;
-}
-.app___2khK2 .container___ki5VE data span a {
-  font-family: Roboto Condensed;
-  font-weight: 400;
-  color: #222;
 }
 
