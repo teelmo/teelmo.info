@@ -94,6 +94,7 @@ class App extends Component {
           <data><label>Instagram</label> <span><a href="https://www.instagram.com/teelmo/">@teelmo</a></span></data>
           <data><label>Twitter</label> <span><a href="https://www.twitter.com/teelmo/">@teelmo</a></span></data>
           <data><label>Facebook</label> <span><a href="https://www.facebook.com/teelmo/">@teelmo</a></span></data>
+          <data><label>LinkedIn</label> <span><a href="https://www.linkedin.com/in/teelmo/">@teelmo</a></span></data>
           <data><label>Github</label> <span><a href="https://www.github.com/teelmo/">@teelmo</a></span></data>
         </div>
         <div className={style.image_container}><img src="img/ecuador.jpg" /></div>
