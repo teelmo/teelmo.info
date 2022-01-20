@@ -157,6 +157,23 @@ body {
   max-width: 600px;
   padding: 30px 30px;
 }
+.app___2khK2 .language_selector___MiI_Q {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.app___2khK2 .language_selector___MiI_Q button {
+  background-color: #009FB7;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 3px 8px;
+}
+.app___2khK2 .language_selector___MiI_Q button:hover {
+  box-shadow: 0px 2px 9px #009FB7;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
 .app___2khK2 h1 {
   color: #009FB7;
   font-family: Anton;
@@ -220,12 +237,12 @@ body {
   font-family: Roboto Condensed;
   font-weight: 700;
   display: inline-block;
-  width: 110px;
+  max-width: 280px;
   text-align: right;
 }
 .app___2khK2 .container___ki5VE data span {
   display: inline-block;
-  width: 150px;
+  max-width: 200px;
   text-align: left;
   font-family: Roboto Condensed;
   font-weight: 400;
