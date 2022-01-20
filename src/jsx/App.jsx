@@ -146,12 +146,12 @@ class App extends Component {
           </div>
           <div className={style.container}>
             <h2>Knowledge</h2>
-            <p>Data Journalism, Information Visualision, GIS, Javascript/React, D3.js, HTML/CSS, Python, PHP, AWS, UI/UX design, frontend/backend, SQL, noSQL, Linux/Mac, Speadsheets</p>
+            <p>Data Journalism, Information Visualisation, GIS, Javascript/React, D3.js, HTML/CSS, Python, PHP, AWS, UI/UX design, frontend/backend, SQL, noSQL, Linux/Mac, Speadsheets</p>
           </div>
           <div className={style.container}>
             <h2>Awards</h2>
             <data><label>Nordic Data Journalism Award</label>, <a href="https://yle.fi/uutiset/3-7869067" target="_blank">Kandideitti</a></data>
-            <data><label>Statistics story of the year</label>, <a href="https://yle.fi/uutiset/3-7945975" target="_blank">Vaalituloksen visualisointi</a></data>
+            <data><label>Statistics story of the year</label>, <a href="https://yle.fi/uutiset/3-7945975" target="_blank">Election result visualisation</a></data>
             <data><label>Prix Europa ja Koura-award</label>, <a href="https://yle.fi/aihe/they_look_death_in_the_eye" target="_blank">He Katsovat Kuolemaa Silmiin</a></data>
             <data><label>Goole Editors Lab Hackday</label>, <a href="https://www.globaleditorsnetwork.org/programmes/editors-lab/yle-editors-lab/" target="_blank">Beef</a></data>
             <data><label>Koura Innovation Award</label>, <a href="https://yle.fi/uutiset/3-10769930" target="_blank">Säteilevä paratiisi</a></data>
@@ -214,7 +214,7 @@ class App extends Component {
           </div>
           <div className={style.container}>
             <h2>Contact</h2>
-            <p>I give trainings in the area of data journalsim and information visualiation. I organise workshops on how to use Excel and Google's tools efficiently. I regularly lecture at Universities and give trainings in seminars.</p>
+            <p>I give trainings in the area of data journalism and information visualisation. I organise workshops on how to use Excel and Google's tools efficiently. I regularly lecture at Universities and give trainings in seminars.</p>
             <p>You can reach me via different channels. Invite me to lecture, for a visit, for a beer, to be your friend.</p>
             <data><label>Instagram</label> <span><a href="https://www.instagram.com/teelmo/">@teelmo</a></span></data>
             <data><label>Twitter</label> <span><a href="https://www.twitter.com/teelmo/">@teelmo</a></span></data>
