@@ -455,7 +455,7 @@ function App() {
         </div>
         <div className="container">
           <h2>Blog</h2>
-          <p>Since 2011 I have published posts in a datajournalism blog in Finnish. The blog has been one of the most used sources of data journalism related thing in Finland and a source for many thesis works.</p>
+          <p>Since 2011 I have published posts in a datajournalism blog in Finnish. The blog has been one of the most referred in the field of datajournalism in Finland and a source for many thesis works.</p>
           <data>
             <span className="label">Blog</span>
             {' '}
