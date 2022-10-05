@@ -175,7 +175,7 @@ function App() {
         </div>
         <div className="container">
           <h2>Statster</h2>
-          <p>Vuonna 2007 perustin verkkopalvelun nimeltä Statster. Sen avulla pidän kirjaa kuunnelluista albumeistani, joita on kertynyt jo melkein 30&shy;000.</p>
+          <p>Vuonna 2007 perustin verkkopalvelun nimeltä Statster. Sen avulla pidän kirjaa kuunnelluista albumeistani, joita on kertynyt jo yli 30&shy;000.</p>
           <data>
             <span className="label">Statster</span>
             {' '}
@@ -493,7 +493,7 @@ function App() {
         </div>
         <div className="container">
           <h2>Statster</h2>
-          <p>In 2007 I founded a webservice called Statster and it is still in active developlement. Statster is used to track albums that a user have listened over time. My count is almost 30,000.</p>
+          <p>In 2007 I founded a webservice called Statster and it is still in active developlement. Statster is used to track albums that a user have listened over time. My count is over 30,000.</p>
           <data>
             <span className="label">Statster</span>
             {' '}
@@ -613,7 +613,7 @@ function App() {
         </div>
         <div className="container">
           <h2>Contact</h2>
-          <p>I give trainings in the area of data journalism and information visualisation. I organise workshops on how to use Excel and Google`&apos;s tools efficiently. I regularly lecture at Universities and give trainings in seminars.</p>
+          <p>I give trainings in the area of data journalism and information visualisation. I organise workshops on how to use Excel and Google&apos;s tools efficiently. I regularly lecture at Universities and give trainings in seminars.</p>
           <p>You can reach me via different channels. Invite me to lecture, for a visit, for a beer, to be your friend.</p>
           <data>
             <span className="label">Instagram</span>
