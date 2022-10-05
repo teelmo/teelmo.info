@@ -21,7 +21,7 @@ function App() {
       lang === 'fi'
       && (
       <div>
-        <div className="image_container"><img src="img/teemo.jpg" alt="Teemo Tebest" /></div>
+        <div className="image_container"><img src="./assets/img/teemo.jpg" alt="Teemo Tebest" /></div>
         <h3><TypeWriter typing={1}>Moro! Olen Teemo, ihminen.</TypeWriter></h3>
         <div className="container">
           <h2>Ura</h2>
@@ -323,7 +323,7 @@ function App() {
             <span className="value"><a href="https://www.github.com/teelmo/">@teelmo</a></span>
           </data>
         </div>
-        <div className="image_container"><img src="img/ecuador.jpg" alt="Vesiputous Ecuadorissa" /></div>
+        <div className="image_container"><img src="./assets/img/ecuador.jpg" alt="Vesiputous Ecuadorissa" /></div>
       </div>
       )
     }
@@ -331,7 +331,7 @@ function App() {
       lang === 'en'
       && (
       <div>
-        <div className="image_container"><img src="img/teemo.jpg" alt="Teemo Tebest" /></div>
+        <div className="image_container"><img src="./assets/img/teemo.jpg" alt="Teemo Tebest" /></div>
         <h3>
           <TypeWriter typing={1}>Hi! I am Teemo, a human being.</TypeWriter>
         </h3>
@@ -641,7 +641,7 @@ function App() {
             <span className="value"><a href="https://www.github.com/teelmo/">@teelmo</a></span>
           </data>
         </div>
-        <div className="image_container"><img src="img/ecuador.jpg" alt="Water fall in Ecuador" /></div>
+        <div className="image_container"><img src="./assets/img/ecuador.jpg" alt="Water fall in Ecuador" /></div>
       </div>
       )
     }
