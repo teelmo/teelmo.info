@@ -26,7 +26,7 @@ function App() {
         <div className="container">
           <h2>Ura</h2>
           <p>
-            Olen koulutukseltani tietotekniikan diplomi-insinööri. Opiskelin Tampereella, pääaineenani oli Hypermedia ja valmistuin keväällä 2010. Vuodesta 2012 vuoteen 2022 olen ollut Ylellä. Tällä hetkellä asun Genevessä ja työskentelen UNCTAD:lla informaation visualisoinnin asiantuntijana. Minut löytää myös
+            Olen koulutukseltani tietotekniikan diplomi-insinööri. Opiskelin Tampereella, pääaineenani oli Hypermedia ja valmistuin keväällä 2010. Vuodesta 2012 vuoteen 2022 työskentelin Ylellä. Tällä hetkellä asun Genevessä ja työskentelen UNCTAD:lla informaation visualisoinnin asiantuntijana. Minut löytää myös
             {' '}
             <a href="https://fi.wikipedia.org/wiki/Teemo_Tebest">Wikipediasta</a>
             .
@@ -67,6 +67,12 @@ function App() {
             {' '}
             <span className="value">2009–2011</span>
           </data>
+          <p>
+            <br />
+            Lataa
+            {' '}
+            <a href="./assets/data/CV - Teemo Tebest.pdf" target="_blank">CV</a>
+          </p>
         </div>
         <div className="container">
           <h2>Osaaminen</h2>
@@ -383,7 +389,7 @@ function App() {
             <br />
             Download my
             {' '}
-            <a href="data/CV - Teemo Tebest.pdf" target="_blank">CV</a>
+            <a href="./assets/data/CV - Teemo Tebest.pdf" target="_blank">CV</a>
           </p>
         </div>
         <div className="container">
