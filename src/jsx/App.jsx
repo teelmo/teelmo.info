@@ -25,8 +25,10 @@ function App() {
         <h3><TypeWriter typing={1}>Moro! Olen Teemo, ihminen.</TypeWriter></h3>
         <div className="container">
           <h2>Ura</h2>
+          <p>Olen koulutukseltani tietotekniikan diplomi-insinööri. Opiskelin Tampereella, pääaineenani oli Hypermedia ja valmistuin keväällä 2010. Vuodesta 2012 vuoteen 2022 työskentelin Ylellä.</p>
+          <p>Tällä hetkellä asun Genevessä ja työskentelen UNCTAD:lla informaation visualisoinnin asiantuntijana.</p>
           <p>
-            Olen koulutukseltani tietotekniikan diplomi-insinööri. Opiskelin Tampereella, pääaineenani oli Hypermedia ja valmistuin keväällä 2010. Vuodesta 2012 vuoteen 2022 työskentelin Ylellä. Tällä hetkellä asun Genevessä ja työskentelen UNCTAD:lla informaation visualisoinnin asiantuntijana. Minut löytää myös
+            Minut löytää myös
             {' '}
             <a href="https://fi.wikipedia.org/wiki/Teemo_Tebest">Wikipediasta</a>
             .
@@ -192,6 +194,7 @@ function App() {
           <h2>Mediassa</h2>
           <p>
             Tässä poimintoja kun minut on mainittu mediassa ja julkaisuistani. Olen kerännyt artikkeleita myös
+            {' '}
             <a href="https://github.com/teelmo/newsstories">Githubiin</a>
             .
           </p>
@@ -251,7 +254,7 @@ function App() {
           <data>
             <span className="label">Kello</span>
             {' '}
-            <span className="value">Apple Watch 4</span>
+            <span className="value">Apple Watch SE</span>
           </data>
           <data>
             <span className="label">Palvelin</span>
@@ -344,7 +347,11 @@ function App() {
         <div className="container">
           <h2>Career</h2>
           <p>
-            I have Master`&apos;s degree in Computer Science. I studied in Tampere and my major was Hypermedia. I graduated in spring 2010. Between 2012 and 2022 I worked with the Finnish Broadcasting Company (Yle). At the moment I live in Geneva, Switzerland and I work for UNCTAD as a information visualisation expert. I can be found from the
+            I have Master&apos;s degree in Computer Science. I studied in Tampere and my major was Hypermedia. I graduated in spring 2010. Between 2012 and 2022 I worked with the Finnish Broadcasting Company (Yle).
+          </p>
+          <p>At the moment I live in Geneva, Switzerland and I work for UNCTAD as a information visualisation expert.</p>
+          <p>
+            I can be found from the
             {' '}
             <a href="https://fi.wikipedia.org/wiki/Teemo_Tebest">Finnish Wikipedia</a>
             .
@@ -499,7 +506,7 @@ function App() {
         </div>
         <div className="container">
           <h2>Statster</h2>
-          <p>In 2007 I founded a webservice called Statster and it is still in active developlement. Statster is used to track albums that a user have listened over time. My count is over 30,000.</p>
+          <p>In 2007 I founded a webservice called Statster and it is still in active developlement. Statster is used to track albums that a user have listened over time. I am counting at 30,000+ listenings.</p>
           <data>
             <span className="label">Statster</span>
             {' '}
@@ -510,6 +517,7 @@ function App() {
           <h2>In Media</h2>
           <p>
             Here are takes of my work in media and in publications. I have also gathered articles where I am mentioned on
+            {' '}
             <a href="https://github.com/teelmo/newsstories">Github</a>
             .
           </p>
@@ -569,7 +577,7 @@ function App() {
           <data>
             <span className="label">Watch</span>
             {' '}
-            <span className="value">Apple Watch 4</span>
+            <span className="value">Apple Watch SE</span>
           </data>
           <data>
             <span className="label">Server</span>
