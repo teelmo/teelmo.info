@@ -223,6 +223,16 @@ function App() {
             </div>
           )}
         </IsVisible>
+        <div className="content">
+          <h4>Interactive map with column locators</h4>
+        </div>
+        <IsVisible once>
+          {(isVisible) => (
+            <div className={`${(isVisible) ? 'visible' : ''} visualisation_container`}>
+              <div id="app-root-2023-rmt_report_figure2" className="app-root-2023-rmt_report" />
+            </div>
+          )}
+        </IsVisible>
       </div>
       <div className="content_container">
         <div className="content">
