@@ -1,9 +1,7 @@
-import React, { /* useState */ useEffect } from 'react';
-import '../styles/styles.less';
+import { useEffect } from 'react';
+import '../styles/styles.css';
 
-// https://www.npmjs.com/package/react-is-visible
-import 'intersection-observer';
-import IsVisible from 'react-is-visible';
+import VisibleDiv from './VisibleDiv.jsx';
 
 function App() {
   const loadScript = (url) => {
@@ -32,11 +30,7 @@ function App() {
               {' '}
               I am Teemo, a human being
             </div>
-            <IsVisible once>
-              {(isVisible) => (
-                <div className={`${(isVisible) ? 'visible' : ''} desc`}>and a information visualisation expert</div>
-              )}
-            </IsVisible>
+            <VisibleDiv className="desc">and a information visualisation expert</VisibleDiv>
             <div className="arrows_container">
               <a href="#anchor">
                 <span />
@@ -117,22 +111,14 @@ function App() {
         </div>
       </div>
       <div className="content_container full">
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} curtain_container`} />
-          )}
-        </IsVisible>
+        <VisibleDiv className="curtain_container" />
         <div className="content">
           <h2>2023 October</h2>
           <h4>Interactive line graph visualisation with D3.js</h4>
         </div>
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} visualisation_container`}>
-              <div id="app-root-2023-food_price_index" />
-            </div>
-          )}
-        </IsVisible>
+        <VisibleDiv className="visualisation_container">
+          <div id="app-root-2023-food_price_index" />
+        </VisibleDiv>
       </div>
       <div className="content_container">
         <div className="content">
@@ -141,22 +127,14 @@ function App() {
         </div>
       </div>
       <div className="content_container full">
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} curtain_container`} />
-          )}
-        </IsVisible>
+        <VisibleDiv className="curtain_container" />
         <div className="content">
           <h2>2021 July</h2>
           <h4>Animated column graph with D3.js</h4>
         </div>
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} visualisation_container`}>
-              <div id="app-root-2021-temperature2" />
-            </div>
-          )}
-        </IsVisible>
+        <VisibleDiv className="visualisation_container">
+          <div id="app-root-2021-temperature2" />
+        </VisibleDiv>
       </div>
       <div className="content_container">
         <div className="content">
@@ -207,32 +185,20 @@ function App() {
         </div>
       </div>
       <div className="content_container full">
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} curtain_container`} />
-          )}
-        </IsVisible>
+        <VisibleDiv className="curtain_container" />
         <div className="content">
           <h2>2023 September</h2>
           <h4>Race of bars graph with Highcharts</h4>
         </div>
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} visualisation_container`}>
-              <div id="app-root-2023-rmt_report_figure1" className="app-root-2023-rmt_report" />
-            </div>
-          )}
-        </IsVisible>
+        <VisibleDiv className="visualisation_container">
+          <div id="app-root-2023-rmt_report_figure1" className="app-root-2023-rmt_report" />
+        </VisibleDiv>
         <div className="content">
           <h4>Interactive map with column locators</h4>
         </div>
-        <IsVisible once>
-          {(isVisible) => (
-            <div className={`${(isVisible) ? 'visible' : ''} visualisation_container`}>
-              <div id="app-root-2023-rmt_report_figure2" className="app-root-2023-rmt_report" />
-            </div>
-          )}
-        </IsVisible>
+        <VisibleDiv className="visualisation_container">
+          <div id="app-root-2023-rmt_report_figure2" className="app-root-2023-rmt_report" />
+        </VisibleDiv>
       </div>
       <div className="content_container">
         <div className="content">
@@ -341,11 +307,7 @@ function App() {
         <div className="image_container"><img src="./assets/img/ecuador.jpg" alt="Water fall in Ecuador" /></div>
         <div className="content">
           <h3>
-            <IsVisible once>
-              {(isVisible) => (
-                <div className={`${(isVisible) ? 'visible' : ''} desc`}>Kaikki on hyvin</div>
-              )}
-            </IsVisible>
+            <VisibleDiv className="desc">Kaikki on hyvin</VisibleDiv>
           </h3>
         </div>
       </div>
